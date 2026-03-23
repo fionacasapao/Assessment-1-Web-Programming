@@ -1,0 +1,23 @@
+body { /*Use to select an element in HTML*/
+    background-color: black; /*Sets the background color of the selected element*/
+    color: white; /*sets the text color*/
+    font-family: Arial, sans-serif; /*Sets the type of font*/
+    text-align: center; /*aligns the text at the center of the page*/
+}
+
+.image-container { /*Use to select an element in HTML*/
+    width: 700px; /*Sets the width of the image*/
+    margin: 30px auto; /*controls the space outside of the element*/
+}
+
+.image-container img { /*Use to select an element in HTML*/   
+    width: 100%; /*Sets the width of the image*/
+    height: 400px; /*Sets the height of the image container*/
+    object-fit: cover; /*allows the image to fill the container*/
+    border-radius: 10px; /*makes the border rounded*/
+}
+
+.license { /*Use to select an element in HTML*/
+    font-size: 14px; /*use to adjust the font size of the selected element*/
+    color: #aaa; /*sets the text color*/
+}

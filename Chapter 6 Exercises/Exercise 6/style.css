@@ -1,0 +1,53 @@
+
+
+/* page styling */
+body{ /*Use to select an element in HTML*/
+    font-family: Arial; /*Sets the type of font*/
+    background-color: #e9eef3; /*Sets the background color of the selected element*/
+}
+
+/* calculator box */
+.container{ /*Use to select an element in HTML*/
+    width: 300px; /*use to adjust the width or coverage of the image*/
+    background: white; /*Sets the background color of the selected element*/
+    padding: 20px; /*Adds space inside the element.*/
+    margin: 100px auto; /*controls the space outside of the element*/
+    border-radius: 8px; /*use to make the border round*/
+    text-align: center; /*aligns the text at the center of the page*/
+}
+
+/* input fields */
+input{ /*Use to select an element in HTML*/
+    width: 90%; /*use to adjust the width or coverage of the image*/
+    padding: 8px; /*Adds space inside the element.*/
+    margin: 8px 0; /*controls the space outside of the element*/
+    border: 1px solid gray; /*use to adjust the style of the border*/
+    border-radius: 5px; /*use to make the border round*/
+}
+
+/* focus effect when typing */
+input:focus{ /*Use to select an element in HTML*/
+    border-color: blue; /*Sets the background color of the selected element*/
+    outline: none; /*removes the outline*/
+}
+
+/* button styling */
+button{ /*Use to select an element in HTML*/
+    padding: 10px 20px; /*Adds space inside the element.*/
+    background-color: blue; /*Sets the background color of the selected element*/
+    color: white; /*sets the text color*/
+    border: none; /*use to adjust the style of the border*/
+    border-radius: 5px; /*use to make the border round*/
+    cursor: pointer; /*this will show a hand cursor*/
+}
+
+/* hover effect */
+button:hover{ /*Use to select an element in HTML*/
+    background-color: darkblue; /*Sets the background color of the selected element*/
+}
+
+/* result text */
+p{ /*Use to select an element in HTML*/
+    margin-top: 15px; /*adds space above the heading*/
+    font-weight: bold; /*controls how thick or thin of the selected element*/
+}

@@ -1,0 +1,26 @@
+
+div:nth-child(1) { /*selects the first element inside the container*/
+  border: 6px solid purple; /*sets the border line and color*/
+  box-shadow: 10px 10px 20px red; /*adds shadow outside the element*/
+}
+
+/* Div B - Green border with inside shadow on left */
+div:nth-child(2) { /*selects the second element inside the container*/
+  border: 6px solid limegreen; /*sets the border line and color*/
+  box-shadow: inset 10px 10px 20px black; /*adds shadow outside the element*/
+}
+
+/* Div C - Rounded with layered colored borders */
+div:nth-child(3) { /*selects the third element inside the container*/
+  border-radius: 20px; /*makes the border rounded*/
+  border: 5px solid orange; /*sets the border line and color*/
+  box-shadow: /*adds shadow outside the element*/
+    0 0 0 10px blue,
+    0 0 0 20px red,
+    0 0 0 30px green;
+}
+
+/* Div D - Simple red border */
+div:nth-child(4) { /*selects the fourth element inside the container*/
+  border: 4px solid brown; /*sets the border line and color*/
+}

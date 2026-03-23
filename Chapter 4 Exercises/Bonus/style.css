@@ -1,0 +1,93 @@
+/* GENERAL PAGE STYLING */
+body{ /*Use to select an element in HTML*/
+    font-family: Arial, sans-serif; /*Sets the type of font*/
+    margin:0; /*controls the space outside of the element*/
+    background-color:#f4f4f4; /*Sets the background color of the selected element*/
+}
+
+
+/* HEADER STYLING */
+header{ /*Use to select an element in HTML*/
+    background:#222; /*Sets the background color of the selected element*/
+    color:white; /*sets the text color*/
+    text-align:center; /*aligns the text at the center of the page*/
+    padding:20px; /*Adds space inside the element.*/
+}
+
+
+/* NAVIGATION MENU */
+nav{ /*Use to select an element in HTML*/
+    background:#444; /*Sets the background color of the selected element*/
+}
+
+nav ul{ /*Use to select an element in HTML*/
+    display:flex; /*controls the displayed element on the webpage*/
+    justify-content:center; /*aligns items horizontally inside a container*/
+    list-style:none; /*sets the list style of the paragraphs such as bullet or more*/
+    margin:0; /*controls the space outside of the element*/
+    padding:10px; /*Adds space inside the element.*/
+}
+
+nav li{ /*Use to select an element in HTML*/
+    margin:0 15px; /*controls the space outside of the element*/
+}
+
+nav a{ /*Use to select an element in HTML*/
+    color:white; /*sets the text color*/
+    text-decoration:none; /*use for links or highlighting the text*/
+}
+
+
+/* MAIN CONTENT LAYOUT */
+/* Flexbox used to create columns */
+.container{ /*Use to select an element in HTML*/
+    display:flex; /*controls the displayed element on the webpage*/
+    gap:20px; /*sets space between item in flexbox or grid layout*/
+    padding:20px; /*Adds space inside the element.*/
+}
+
+
+/* EACH COLUMN */
+.column{ /*Use to select an element in HTML*/
+    flex:1; /*use to fill the available space*/
+    background:white; /*Sets the background color of the selected element*/
+    padding:15px; /*Adds space inside the element.*/
+    border-radius:6px; /*use to make the border round*/
+}
+
+
+/* TASK ITEMS */
+.task{ /*Use to select an element in HTML*/
+    background:#e9e9e9; /*Sets the background color of the selected element*/
+    margin-bottom:10px; /*adds space below the heading*/
+    padding:10px; /*Adds space inside the element.*/
+    border-radius:4px; /*use to make the border round*/
+}
+
+
+/* IMAGE STYLING */
+.column img{ /*Use to select an element in HTML*/
+    width:100%; /*use to adjust the width or coverage of the image*/
+    border-radius:5px; /*use to make the border round*/
+}
+
+
+/* BUTTON STYLING */
+button{ /*Use to select an element in HTML*/
+    margin-top:10px; /*adds space above the heading*/
+    padding:10px 15px; /*Adds space inside the element.*/
+    border:none; /*use to adjust the style of the border*/
+    background:#0077cc; /*Sets the background color of the selected element*/
+    color:white; /*sets the text color*/
+    border-radius:4px; /*use to make the border round*/
+    cursor:pointer; /*this will show a hand cursor*/
+}
+
+
+/* FOOTER */
+footer{ /*Use to select an element in HTML*/
+    background:#222; /*Sets the background color of the selected element*/
+    color:white; /*sets the text color*/
+    text-align:center; /*aligns the text at the center of the page*/
+    padding:15px; /*Adds space inside the element.*/
+}

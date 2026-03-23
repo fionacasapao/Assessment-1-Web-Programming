@@ -1,0 +1,52 @@
+body{ /*Use to select an element in HTML*/
+    margin:0; /*controls the space outside of the element*/
+    font-family:Arial, Helvetica, sans-serif; /*Sets the type of font*/
+    background-image:url("background.jpg"); /*tells the browser the location of the image*/
+    background-size:cover; /*image will cover the whole area*/
+}
+
+header{ /*Use to select an element in HTML*/
+    text-align:center; /*aligns the text at the center of the page*/
+    background:white; /*Sets the background color of the selected element*/
+    padding:10px; /*Adds space inside the element*/
+    color:#e63946; /*sets the text color*/
+}
+
+.soundboard{ /*Use to select an element in HTML*/
+    display:grid; /*controls the displayed element on the webpage*/
+    grid-template-columns:repeat(3,1fr); /*tells how many columns and how wide*/
+    gap:25px; /*sets space between item in flexbox or grid layout*/
+    padding:40px; /*Adds space inside the element*/
+    max-width:900px; /*limits the maximum width of the selcted element*/
+    margin:auto; /*controls the space outside of the element*/
+}
+
+.sample{ /*Use to select an element in HTML*/
+    background:#e6e6e6; /*Sets the background color of the selected element*/
+    border-radius:20px; /*use to make the border round*/
+    border:6px solid black; /*use to design the border*/
+    text-align:center; /*aligns the text at the center of the page*/
+    padding:20px; /*Adds space inside the element*/
+    cursor:pointer; /*this will show a hand cursor*/
+    transition:0.3s; /*adds smoothness to the transition of animation*/
+}
+
+.sample h3{ /*Use to select an element in HTML*/
+    margin:10px 0; /*controls the space outside of the element*/
+}
+
+.sample span{ /*Use to select an element in HTML*/
+    font-size:14px; /*use to adjust the size of the font*/
+}
+
+.sample:hover{ /*Use to select an element in HTML*/
+    background:#e63946; /*Sets the background color of the selected element*/
+    color:white; /*sets the text color*/
+}
+
+body{ /*Use to select an element in HTML*/
+    background-image: url("images/background.jpg"); /*tells the browser the location of the image*/
+    background-size: cover; /*image will cover the whole area*/
+    background-repeat: no-repeat; /*prevents the background from repeating*/
+    background-position: center; /*places the backgroun at the center of the element*/
+}

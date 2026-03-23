@@ -1,0 +1,60 @@
+
+body{ /*Use to select an element in HTML*/
+    font-family: Arial, Helvetica, sans-serif; /*Sets the type of font*/
+    background-color: #f0f3f7; /*Sets the background color of the selected element*/
+    text-align: center; /*aligns the text at the center of the page*/
+}
+
+.game-container{ /*Use to select an element in HTML*/
+    width: 500px; /*use to adjust the width or coverage of the image*/
+    margin: auto; /*controls the space outside of the element*/
+    margin-top: 60px; /*adds space above the heading*/
+    background: white; /*Sets the background color of the selected element*/
+    padding: 25px; /*Adds space inside the element.*/
+    border-radius: 10px; /*use to make the border round*/
+    box-shadow: 0 4px 10px rgba(0,0,0,0.1); /*adds shadow around the element*/
+}
+
+
+.colour-options{ /*Use to select an element in HTML*/
+    display: grid; /*makes the container into grid layout*/
+    grid-template-columns: repeat(2, 1fr); /*defines how many columns the grid has*/
+    gap: 15px; /*sets space between item in flexbox or grid layout*/
+    margin-top: 20px; /*adds space above the heading*/
+}
+
+
+.colour-box{ /*Use to select an element in HTML*/
+    height: 100px; /*use to adjust the height or coverage of the image*/
+    border-radius: 8px; /*use to make the border round*/
+    cursor: pointer; /*this will show a hand cursor*/
+    transition: transform 0.2s; /*adds smoothness to the transition of animation*/
+}
+
+
+.colour-box:hover{ /*Use to select an element in HTML*/
+    transform: scale(1.05); /*makes the element a bit bigger*/
+}
+
+
+.stats{ /*Use to select an element in HTML*/
+    display: flex; /*makes the container into a flexbox layout*/
+    justify-content: space-around; /*add equal space around each item*/
+    margin-top: 10px; /*adds space above the heading*/
+}
+
+
+button{ /*Use to select an element in HTML*/
+    margin-top: 20px; /*adds space above the heading*/
+    padding: 10px 20px; /*Adds space inside the element.*/
+    border: none; /*use to design the border*/
+    background-color: #2d89ef; /*Sets the background color of the selected element*/
+    color: white; /*sets the text color*/
+    border-radius: 5px; /*use to make the border round*/
+    cursor: pointer; /*this will show a hand cursor*/
+}
+
+
+button:hover{ /*Use to select an element in HTML*/
+    background-color: #1b5fbf; /*Sets the background color of the selected element*/
+}

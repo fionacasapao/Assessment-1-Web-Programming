@@ -1,0 +1,18 @@
+div { /*Use to select an element in HTML*/
+  display: inline-block; /*use to control the display of the element*/
+  font-family: sans-serif; /*Sets the type of font*/
+  font-size: 20px; /*use to adjust the size of the font*/
+  margin: 25px; /*controls the space outside of the element*/
+  border: 4px solid black; /*sets the border line*/
+  line-height: 100px; /*sets the vertical height of a line of text*/
+  text-align: center; /*aligns the text at the center of the page*/
+  width: 200px; /*sets the width of the selected element*/
+  height: 200px; /*sets the height of the selected element*/
+}
+
+body { /*Use to select an element in HTML*/
+  margin: 100px auto;  /*controls the space outside of the element*/
+  width: max-content; /*sets the width of the selected element*/
+}
+
+

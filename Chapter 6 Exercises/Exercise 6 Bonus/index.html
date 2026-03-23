@@ -1,0 +1,53 @@
+<!--
+RGB Colour Guessing Game
+This file contains the structure of the game
+-->
+
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>RGB Guessing Game</title>
+
+    <!-- Link to CSS -->
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+<!-- Main container -->
+<div class="game-container">
+
+    <!-- Title -->
+    <h1>RGB Colour Guessing Game</h1>
+
+    <!-- RGB value to guess -->
+    <h2 id="rgbValue">RGB(?, ?, ?)</h2>
+
+    <!-- Message to show result -->
+    <p id="message">Choose the correct colour!</p>
+
+    <!-- Score and lives -->
+    <div class="stats">
+        <p>Score: <span id="score">0</span></p>
+        <p>Lives: <span id="lives">3</span></p>
+    </div>
+
+    <!-- Colour options -->
+    <div class="colour-options">
+        <div class="colour-box"></div>
+        <div class="colour-box"></div>
+        <div class="colour-box"></div>
+        <div class="colour-box"></div>
+    </div>
+
+    <!-- Restart button -->
+    <button id="restartBtn">Restart Game</button>
+
+</div>
+
+<!-- Link to JS -->
+<script src="index.js"></script>
+
+</body>
+</html>

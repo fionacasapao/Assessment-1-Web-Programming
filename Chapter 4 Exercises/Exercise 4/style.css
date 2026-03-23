@@ -1,0 +1,138 @@
+
+body { /*Use to select an element in HTML*/
+    margin: 0; /*controls the space outside of the element*/
+    font-family: Arial; /*Sets the type of font*/
+    font-size: 400; /*use to adjust the font size of the selected element*/
+    color: #000000; /*sets the text color*/
+}
+
+/* HEADER */
+
+header h1{ /*Use to select an element in HTML*/
+    text-decoration: underline; /*use for links or highlighting the text*/
+    font-weight: 700; /*controls how bold the text are*/
+}
+
+header { /*Use to select an element in HTML*/
+    background-color: #17072b; /*Sets the background color of the selected element*/
+    color: #ffffff; /*sets the text color*/
+    text-align: center; /*aligns the text at the center of the page*/
+    padding: 40px; /*Adds space inside the element.*/
+    font-family: Tahoma; /*Sets the type of font*/
+    font-size:x-large; /*use to adjust the font size of the selected element*/
+}
+
+nav ul { /*Use to select an element in HTML*/
+    list-style: none; /*sets the list style of the paragraphs such as bullet or more*/
+    padding: 5px; /*Adds space inside the element*/
+}
+
+nav li { /*Use to select an element in HTML*/
+    display: inline-block; /*controls the displayed element on the webpage*/
+    margin: 0 15px; /*controls the space outside of the element*/
+    font-size: xx-large; /*use to adjust the font size of the selected element*/
+}
+
+nav a { /*Use to select an element in HTML*/
+    text-decoration: none; /*use for links or highlighting the text*/
+    color: white; /*sets the text color*/
+}
+
+/* MAIN LAYOUT */
+
+main { /*Use to select an element in HTML*/
+    display: flex; /*controls the displayed element on the webpage*/
+}
+
+/* WELCOME SECTION */
+
+.welcome { /*Use to select an element in HTML*/
+    width: 70%; /*use to adjust the width or coverage of the selected element*/
+    font-size: large; /*use to adjust the font size of the selected element*/
+    padding: 20px; /*Adds space inside the element*/
+    font-family: Arial,sans-serif; /*Sets the type of font*/
+    background-color: #eeeeee; /*Sets the background color of the selected element*/
+
+}
+
+.welcome img { /*Use to select an element in HTML*/
+    width: 100%; /*use to adjust the width or coverage of the selected element*/
+    height: 62%; /*use to adjust the height or coverage of the selected element*/
+    margin-top: 20px; /*adds space above the heading*/
+    
+}
+
+.welcome p { /*Use to select an element in HTML*/
+    margin-top: 15px; /*adds space above the heading*/
+    margin-bottom: 10px; /*adds space below the heading*/
+    line-height: 1.6; /*sets the space between lines of text*/
+    font-family: Arial, Helvetica, sans-serif; /*Sets the type of font*/
+    font-weight: 200; /*controls how bold the text are*/
+    font-size: x-large; /*use to adjust the font size of the selected element*/
+}
+
+.welcome h1{ /*Use to select an element in HTML*/
+    text-decoration: underline; /*use for links or highlighting the text*/
+}
+
+/* SIDEBAR */
+
+.sidebar { /*Use to select an element in HTML*/
+    width: 35%; /*use to adjust the width or coverage of the selected element*/
+    background-color: #172d67; /*Sets the background color of the selected element*/
+    color: #ffffff; /*sets the text color*/
+    padding: 20px; /*Adds space inside the element*/
+    margin-top: 30px; /*adds space above the heading*/
+    margin-bottom: 30px; /*adds space below the heading*/
+}
+
+/* Line Up title */
+.sidebar h1 { /*Use to select an element in HTML*/
+    text-decoration: underline; /*use for links or highlighting the text*/
+    margin-bottom: 50px; /*adds space below the heading*/
+    font-size: xx-large; /*use to adjust the font size of the selected element*/
+}
+
+/* Line Up list */
+.sidebar ul { /*Use to select an element in HTML*/
+    list-style: none; /*sets the list style of the paragraphs such as bullet or more*/
+    padding-left: 0; /*adds space to the left side of the element*/
+    font-size: x-large; /*use to adjust the font size of the selected element*/
+    font-family: Arial, Helvetica, sans-serif; /*Sets the type of font*/
+    
+}
+.sidebar ul li { /*Use to select an element in HTML*/
+    margin-bottom: 60px; /*adds space below the heading*/
+}
+
+/* add dash before list items */
+.sidebar ul li::before { /*Use to select an element in HTML*/
+    content: "- "; /*dash is added before each list item*/
+}
+
+/* images layout */
+.line-images { /*Use to select an element in HTML*/
+    display: flex; /*controls the displayed element on the webpage*/
+    gap: 10px; /*sets space between item in flexbox or grid layout*/
+    margin-top: 140px; /*adds space above the heading*/
+    width: 200px; /*use to adjust the width or coverage of the selected element*/
+    height: 200px; /*use to adjust the height or coverage of the selected element*/
+}
+
+/* square images */
+.line-images img { /*Use to select an element in HTML*/
+    width: 230px; /*use to adjust the width or coverage of the image*/
+    height: 230px; /*use to adjust the height or coverage of the image*/
+    object-fit: cover; /*controls the coverage or fit of the images inside their container*/
+}
+
+
+/* FOOTER */
+
+footer { /*Use to select an element in HTML*/
+    background-color: #8c15e9; /*Sets the background color of the selected element*/
+    color: white; /*sets the text color*/
+    text-align: center; /*aligns the text at the center of the page*/
+    padding: 10px; /*Adds space inside the element*/
+}
+

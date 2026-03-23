@@ -1,0 +1,120 @@
+<!DOCTYPE html> <!--document is written in HTML-->
+<html lang="en"> <!--lang="en" tells the browswer and search engines that the language of the page is English.-->
+
+<head>
+    <meta charset="UTF-8"> <!--"UTF-8"-alllow to display letters, numbers, and special characters from many languages-->
+    <title>Web Development Study Plan</title> <!--This title will appear at the very top of the webpage-->
+
+    <!-- Linking the external CSS file -->
+    <link rel="stylesheet" href="style.css"> <!--Use to connect a HTML file with the CSS file-->
+</head>
+
+<body>
+
+    <!-- HEADER SECTION -->
+    <!-- This contains the title of the web app -->
+    <header> 
+        <h1>Web Development Study Planner</h1> <!--Main title of the Page-->
+        <p>Creative Computing Module</p> <!--Paragraph-->
+    </header>
+
+
+    <!-- NAVIGATION MENU -->
+    <!-- Links would normally go to different sections/pages -->
+    <nav> <!--navigation section of a webpage-->
+        <ul> <!--Unordered list-->
+            <li><a href="#">Home</a></li> <!--List items-->
+            <li><a href="#">My Tasks</a></li>
+            <li><a href="#">Resources</a></li>
+            <li><a href="#">Progress</a></li>
+        </ul>
+    </nav>
+
+
+    <!-- MAIN CONTENT AREA -->
+    <!-- The main area is split into three columns -->
+
+    <!--main - container element
+    class="container" use to style this group of elements in CSS-->
+    <main class="container">
+
+        <!-- LEFT COLUMN -->
+        <!-- Shows the wireframe image --> 
+
+        <!--section - container element
+            class="colums" use to style this group of elements in CSS-->
+        <section class="column">
+            <h2>Wireframe</h2> <!--subheading-->
+
+            <!-- Wireframe image stored in the project folder -->
+
+            <!--<img> is used to display an image to the webpage-->
+            <!--src tells where the image is located-->
+            <!--alt alternative text for the image.-->
+            <img src="wireframe.png" alt="Website Wireframe">
+
+            <!-- Button example -->
+            <button>View Full Plan</button> 
+        </section>
+
+        <!--section - container element
+            class="column" use to style this group of elements in CSS-->
+        <section class="column">
+            <h2>Study Tasks</h2> <!--subheading-->
+
+            <!--article - container element
+            class="task" use to style this group of elements in CSS-->
+            <article class="task">
+                <h3>HTML Basics</h3> <!--smaller subheading-->
+                <p>Learn headings, paragraphs, and semantic tags.</p>
+            </article>
+
+            <!--article - container element
+            class="task" use to style this group of elements in CSS-->
+            <article class="task">
+                <h3>CSS Styling</h3> <!--smaller subheading-->
+                <p>Practice colors, fonts, margins and padding.</p> <!--paragraph-->
+            </article> 
+
+            <!--article - container element
+            class="task" use to style this group of elements in CSS-->
+            <article class="task">
+                <h3>Page Layout</h3> <!--smaller subheading-->
+                <p>Create layouts using Flexbox and Grid.</p> <!--paragraph-->
+            </article>
+
+        </section>
+
+
+        <!--section - container element
+            class="column" use to style this group of elements in CSS-->
+        <section class="column">
+            <h2>Upcoming Topics</h2> <!--subheading-->
+
+            <!--article - container element
+            class="task" use to style this group of elements in CSS-->
+            <article class="task">
+                <h3>Responsive Design</h3> <!--smaller subheading-->
+                <p>Make websites work on mobile and desktop.</p> <!--paragraph-->
+            </article>
+
+            <!--article- container element
+            class="task" use to style this group of elements in CSS-->
+            <article class="task">
+                <h3>JavaScript Basics</h3> <!--smaller subheading-->
+                <p>Learn variables, functions and DOM manipulation.</p> <!--paragraph-->
+            </article>
+
+        </section>
+
+    </main>
+
+
+
+    <footer> <!--container element-->
+        <p>Creative Computing - Web Development Module</p> <!--paragraph-->
+        <p>© 2026 Study Planner</p>
+    </footer>
+
+</body>
+</html>

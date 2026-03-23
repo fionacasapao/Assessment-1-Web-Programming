@@ -1,0 +1,51 @@
+/* Page Styling */
+body { /*Use to select an element in HTML*/
+    font-family: Arial, sans-serif; /*Sets the type of font*/
+    background-color: #f4f4f4; /*Sets the background of the selected element*/
+    margin: 20px; /*adds space around the body content*/
+    }
+
+/* Main Title */
+h1 { /*Use to select an element in HTML*/
+    color: #800000; /*sets the text color*/
+    text-align: center; /*aligns the text at the center of the page*/
+    margin-bottom: 15px; /*adds space below the heading*/
+}
+
+/* Subheadings */
+h2 { /*Use to select an element in HTML*/
+    color: #b22222; /*sets the text color*/
+    margin-top: 25px; /*adds space above the heading*/
+    border-bottom: 2px solid #800000; /*adds border line under the heading*/
+    padding-bottom: 5px; /*adds space between the border line and heading text*/
+}
+
+/* Paragraph Styling */
+p { /*Use to select an element in HTML*/
+    font-size: 16px; /*use to adjust and set the font size*/
+    background-color: #E4E4E4; /*Sets the background of the selected element*/
+    text-align: center; /*aligns the text at the center of the page*/
+}
+
+/* Image Styling */
+img { /*Use to select an element in HTML*/
+    display: block; /*it allows it to be centered and take full width behavior*/
+    margin: 15px auto; /*Sets top/bottom and left/right spacing. Auto means automatically cemtered the image*/
+}
+
+/* Unordered List */
+ul { /*Use to select an element in HTML*/
+    background-color: #ffffff; /*Sets the background of the selected element*/
+    padding: 15px 30px; /*Adds space inside the element. 15px-top/bottm and 30px-left/right*/
+}
+
+/* Ordered List */
+ol { /*Use to select an element in HTML*/
+    background-color: #ffffff; /*Sets the background of the selected element*/
+    padding: 15px 30px; /*Adds space inside the element. 15px-top/bottm and 30px-left/right*/
+}
+
+/* List Items */
+li { /*Use to select an element in HTML*/
+    margin-bottom: 8px; /*adds space below the heading*/
+}

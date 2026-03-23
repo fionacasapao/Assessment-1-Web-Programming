@@ -1,0 +1,35 @@
+<!DOCTYPE html> <!--document is written in HTML-->
+<html lang="en"> <!--lang="en" tells the browswer and search engines that the language of the page is English.--> 
+<head>
+    <meta charset="UTF-8"> <!--"UTF-8"-alllow to display letters, numbers, and special characters from many languages-->
+        <title>Embedded Video</title> <!--This title will appear at the very top of the webpage-->
+
+    <style> /*use to style inside the Html File*/
+        body{ /*Use to select an element in HTML*/
+            margin:0; /*controls the space outside of the element*/
+            height:100vh; /*100vh means the body takes up 100% of the screen height.*/
+            display:flex; /*controls the displayed element on the webpage*/
+            justify-content:center; /*centers the content horizontally*/
+            align-items:center; /*centers the content vertically*/
+            background-color:#f0f0f0; /*Sets the background color of the selected element*/
+        }
+
+        video{
+            width:500px; /*use to adjust the width or coverage of the selected element*/
+        }
+    </style>
+
+</head>
+<body>
+
+    <!--Creates video player
+        Controls - shows play, pause and volume button
+        Loop - automatically play the video repeatedly when its done
+        poster.jpg - displays an image before playing the video-->
+    <video controls loop poster="poster.jpg"> 
+        <source src="video.mp4" type="video/mp4"> <!--SRC - video file name. TYPE - format of the video-->
+        Your browser does not support the video tag.
+    </video> 
+
+</body>
+</html>
